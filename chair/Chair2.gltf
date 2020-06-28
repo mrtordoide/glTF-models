@@ -1,0 +1,417 @@
+{
+   "accessors" : [
+      {
+         "bufferView" : 0,
+         "byteOffset" : 0,
+         "componentType" : 5123,
+         "count" : 336,
+         "max" : [ 191 ],
+         "min" : [ 0 ],
+         "name" : "buffer-0-group-0-mesh-0-indices",
+         "type" : "SCALAR"
+      },
+      {
+         "bufferView" : 1,
+         "byteOffset" : 0,
+         "componentType" : 5126,
+         "count" : 192,
+         "max" : [ 1.239403009414673, 0.2061759978532791, 0.8662989735603333 ],
+         "min" : [ -1.239403009414673, 0.0002530000056140125, -0.8662989735603333 ],
+         "name" : "buffer-0-group-0-mesh-0-position",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 1,
+         "byteOffset" : 2304,
+         "componentType" : 5126,
+         "count" : 192,
+         "max" : [ 1, 1, 1 ],
+         "min" : [ -1, -1, -1 ],
+         "name" : "buffer-0-group-0-mesh-0-normal",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 2,
+         "byteOffset" : 0,
+         "componentType" : 5126,
+         "count" : 192,
+         "max" : [ 0.9671199917793274, -0.209974005818367 ],
+         "min" : [ 0.2199600040912628, -0.9690920114517212 ],
+         "name" : "buffer-0-group-0-mesh-0-texcoord",
+         "type" : "VEC2"
+      },
+      {
+         "bufferView" : 0,
+         "byteOffset" : 672,
+         "componentType" : 5123,
+         "count" : 1704,
+         "max" : [ 490 ],
+         "min" : [ 0 ],
+         "name" : "buffer-0-group-1-mesh-0-indices",
+         "type" : "SCALAR"
+      },
+      {
+         "bufferView" : 1,
+         "byteOffset" : 4608,
+         "componentType" : 5126,
+         "count" : 491,
+         "max" : [ 1.311148047447205, 1.990522980690002, 1 ],
+         "min" : [ -1.309999942779541, 0.1814080029726028, -1.000074982643127 ],
+         "name" : "buffer-0-group-1-mesh-0-position",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 1,
+         "byteOffset" : 10500,
+         "componentType" : 5126,
+         "count" : 491,
+         "max" : [ 1, 1, 1 ],
+         "min" : [ -1, -1, -1 ],
+         "name" : "buffer-0-group-1-mesh-0-normal",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 2,
+         "byteOffset" : 1536,
+         "componentType" : 5126,
+         "count" : 491,
+         "max" : [ 1, 0 ],
+         "min" : [ 0, -1 ],
+         "name" : "buffer-0-group-1-mesh-0-texcoord",
+         "type" : "VEC2"
+      },
+      {
+         "bufferView" : 0,
+         "byteOffset" : 4080,
+         "componentType" : 5123,
+         "count" : 2880,
+         "max" : [ 611 ],
+         "min" : [ 0 ],
+         "name" : "buffer-0-group-2-mesh-0-indices",
+         "type" : "SCALAR"
+      },
+      {
+         "bufferView" : 1,
+         "byteOffset" : 16392,
+         "componentType" : 5126,
+         "count" : 612,
+         "max" : [ 0.998324990272522, 1.717908024787903, 0.4603570103645325 ],
+         "min" : [ 0.0582440011203289, 0.9214969873428345, -0.5244140028953552 ],
+         "name" : "buffer-0-group-2-mesh-0-position",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 1,
+         "byteOffset" : 23736,
+         "componentType" : 5126,
+         "count" : 612,
+         "max" : [ 0.9794461131095886, 0.9936518669128418, 0.9989783763885498 ],
+         "min" : [ -0.9794895648956299, -0.9936518669128418, -0.9989911317825317 ],
+         "name" : "buffer-0-group-2-mesh-0-normal",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 2,
+         "byteOffset" : 5464,
+         "componentType" : 5126,
+         "count" : 612,
+         "max" : [ 0.9575660228729248, -0.5576670169830322 ],
+         "min" : [ 0.3967320024967194, -0.9684540033340454 ],
+         "name" : "buffer-0-group-2-mesh-0-texcoord",
+         "type" : "VEC2"
+      },
+      {
+         "bufferView" : 0,
+         "byteOffset" : 9840,
+         "componentType" : 5123,
+         "count" : 2880,
+         "max" : [ 617 ],
+         "min" : [ 0 ],
+         "name" : "buffer-0-group-3-mesh-0-indices",
+         "type" : "SCALAR"
+      },
+      {
+         "bufferView" : 1,
+         "byteOffset" : 31080,
+         "componentType" : 5126,
+         "count" : 618,
+         "max" : [ 0.5210630297660828, 1.661663055419922, 0.5203689932823181 ],
+         "min" : [ -0.5274749994277954, 0.9376609921455383, -0.4874440133571625 ],
+         "name" : "buffer-0-group-3-mesh-0-position",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 1,
+         "byteOffset" : 38496,
+         "componentType" : 5126,
+         "count" : 618,
+         "max" : [ 0.9882896542549133, 0.9965490102767944, 0.9932440519332886 ],
+         "min" : [ -0.988303005695343, -0.9965490102767944, -0.9932225942611694 ],
+         "name" : "buffer-0-group-3-mesh-0-normal",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 2,
+         "byteOffset" : 10360,
+         "componentType" : 5126,
+         "count" : 618,
+         "max" : [ 0.9528650045394897, -0.279107004404068 ],
+         "min" : [ 0, -0.9996169805526733 ],
+         "name" : "buffer-0-group-3-mesh-0-texcoord",
+         "type" : "VEC2"
+      }
+   ],
+   "asset" : {
+      "extras" : {
+         "GOOGLE_processor_version" : 294144208
+      },
+      "generator" : "Obj2GltfConverter",
+      "version" : "2.0"
+   },
+   "bufferViews" : [
+      {
+         "buffer" : 0,
+         "byteLength" : 15600,
+         "byteOffset" : 0,
+         "name" : "buffer-0-bufferview-ushort",
+         "target" : 34963
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 45912,
+         "byteOffset" : 15600,
+         "byteStride" : 12,
+         "name" : "buffer-0-bufferview-vec3",
+         "target" : 34962
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 15304,
+         "byteOffset" : 61512,
+         "byteStride" : 8,
+         "name" : "buffer-0-bufferview-vec2",
+         "target" : 34962
+      }
+   ],
+   "buffers" : [
+      {
+         "byteLength" : 76816,
+         "name" : "buffer-0",
+         "uri" : "Chair2.bin"
+      }
+   ],
+   "cameras" : [
+      {
+         "perspective" : {
+            "yfov" : 0.7853981633974483,
+            "znear" : 0.1000000014901161
+         },
+         "type" : "perspective"
+      }
+   ],
+   "extensions" : {
+      "KHR_lights_punctual" : {
+         "lights" : [
+            {
+               "color" : [ 1, 0.9333333333333333, 0.8666666666666667 ],
+               "intensity" : 0.25,
+               "name" : "headLight",
+               "type" : "directional"
+            },
+            {
+               "color" : [ 1, 0.9333333333333333, 0.8666666666666667 ],
+               "intensity" : 0.324999988079071,
+               "name" : "keyLight",
+               "type" : "directional"
+            }
+         ]
+      }
+   },
+   "extensionsUsed" : [ "GOOGLE_backgrounds", "GOOGLE_camera_settings", "KHR_lights_punctual" ],
+   "extras" : {
+      "GOOGLE_initial_camera_motion" : {
+         "motionPath" : "FULL_ROTATION"
+      },
+      "GOOGLE_lighting_rig" : {
+         "disableShadows" : false
+      }
+   },
+   "materials" : [
+      {
+         "alphaMode" : "OPAQUE",
+         "doubleSided" : true,
+         "name" : "Material.002",
+         "pbrMetallicRoughness" : {
+            "baseColorFactor" : [ 0.169785, 0.184592, 0.203322, 1 ],
+            "metallicFactor" : 0,
+            "roughnessFactor" : 0.7448017359246658
+         }
+      },
+      {
+         "alphaMode" : "OPAQUE",
+         "doubleSided" : true,
+         "name" : "Material",
+         "pbrMetallicRoughness" : {
+            "baseColorFactor" : [ 0.778756, 0.402309, 0.000728, 1 ],
+            "metallicFactor" : 0,
+            "roughnessFactor" : 0.7448017359246658
+         }
+      },
+      {
+         "alphaMode" : "OPAQUE",
+         "doubleSided" : true,
+         "name" : "Red.001",
+         "pbrMetallicRoughness" : {
+            "baseColorFactor" : [ 0.044903, 0.187641, 0.730479, 1 ],
+            "metallicFactor" : 0,
+            "roughnessFactor" : 0.7448017359246658
+         }
+      },
+      {
+         "alphaMode" : "OPAQUE",
+         "doubleSided" : true,
+         "name" : "Red",
+         "pbrMetallicRoughness" : {
+            "baseColorFactor" : [ 0.658229, 0.043584, 0.028481, 1 ],
+            "metallicFactor" : 0,
+            "roughnessFactor" : 0.7448017359246658
+         }
+      }
+   ],
+   "meshes" : [
+      {
+         "name" : "buffer-0-mesh-0",
+         "primitives" : [
+            {
+               "attributes" : {
+                  "NORMAL" : 2,
+                  "POSITION" : 1,
+                  "TEXCOORD_0" : 3
+               },
+               "indices" : 0,
+               "material" : 0,
+               "mode" : 4
+            },
+            {
+               "attributes" : {
+                  "NORMAL" : 6,
+                  "POSITION" : 5,
+                  "TEXCOORD_0" : 7
+               },
+               "indices" : 4,
+               "material" : 1,
+               "mode" : 4
+            },
+            {
+               "attributes" : {
+                  "NORMAL" : 10,
+                  "POSITION" : 9,
+                  "TEXCOORD_0" : 11
+               },
+               "indices" : 8,
+               "material" : 2,
+               "mode" : 4
+            },
+            {
+               "attributes" : {
+                  "NORMAL" : 14,
+                  "POSITION" : 13,
+                  "TEXCOORD_0" : 15
+               },
+               "indices" : 12,
+               "material" : 3,
+               "mode" : 4
+            }
+         ]
+      }
+   ],
+   "nodes" : [
+      {
+         "mesh" : 0,
+         "name" : "node-0"
+      },
+      {
+         "children" : [ 2 ]
+      },
+      {
+         "children" : [ 3 ],
+         "extras" : {
+            "isTransformNode" : 1
+         },
+         "translation" : [ -0.006126365039283614, 1.02585085304166, 0.006385166341026206 ]
+      },
+      {
+         "children" : [ 0 ],
+         "translation" : [ 0.006126365039283614, -1.02585085304166, -0.006385166341026206 ]
+      },
+      {
+         "camera" : 0,
+         "children" : [ 5 ],
+         "rotation" : [
+            -0.09542300145666299,
+            -0.3719595444287241,
+            -0.03847411300464401,
+            0.9225292899035151
+         ],
+         "translation" : [ -3.419170477120043, 2.054718517863575, 3.550965985164477 ]
+      },
+      {
+         "extensions" : {
+            "KHR_lights_punctual" : {
+               "light" : 0
+            }
+         },
+         "extras" : {
+            "isHeadLight" : 1
+         },
+         "name" : "headLightNode",
+         "translation" : [ -2.23439177530288, 1.11719588765144, 1.11719588765144 ]
+      },
+      {
+         "extensions" : {
+            "KHR_lights_punctual" : {
+               "light" : 1
+            }
+         },
+         "extras" : {
+            "isKeyLight" : 1
+         },
+         "name" : "keyLightNode",
+         "rotation" : [ -0.7505326882858236, -0.3752663441429118, 0, 0.5439447166468927 ],
+         "scale" : [ 0, 0, 2.256735693055909 ],
+         "translation" : [ -2.087824597277736, 5.672225809941621, -2.264942049879102 ]
+      }
+   ],
+   "scene" : 0,
+   "scenes" : [
+      {
+         "extensions" : {
+            "GOOGLE_backgrounds" : {
+               "color" : [ 0.9333333333333333, 0.9333333333333333, 0.9333333333333333 ]
+            },
+            "GOOGLE_camera_settings" : {
+               "pivot" : [ 0, 0, 0 ]
+            }
+         },
+         "extras" : {
+            "GOOGLE_camera_index" : {
+               "cameraIndex" : 0,
+               "nodeIndex" : 4
+            },
+            "GOOGLE_geometry_data" : {
+               "stats" : {
+                  "centroid" : [ 0.1689110957781733, 1.158754423829803, -0.008206356823193279 ],
+                  "radius" : 2.23439177530288,
+                  "stdev" : 1.04116665575393
+               },
+               "visualCenterPoint" : [ -0.006126365039283614, 1.02585085304166, 0.006385166341026206 ]
+            },
+            "GOOGLE_hemi_light" : {
+               "groundColor" : [ 0.9333333333333333, 0.9333333333333333, 0.9333333333333333 ]
+            }
+         },
+         "name" : "scene-0",
+         "nodes" : [ 1, 4, 6 ]
+      }
+   ]
+}
