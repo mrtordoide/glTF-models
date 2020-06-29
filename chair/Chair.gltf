@@ -4,8 +4,8 @@
          "bufferView" : 0,
          "byteOffset" : 0,
          "componentType" : 5123,
-         "count" : 1134,
-         "max" : [ 1133 ],
+         "count" : 360,
+         "max" : [ 359 ],
          "min" : [ 0 ],
          "name" : "buffer-0-accessor-indices-buffer-0-mesh-0",
          "type" : "SCALAR"
@@ -14,19 +14,19 @@
          "bufferView" : 2,
          "byteOffset" : 0,
          "componentType" : 5126,
-         "count" : 1134,
-         "max" : [ 91.00604248046875, 78.27896118164062, 305.0395812988281 ],
-         "min" : [ -91.00604248046875, -78.27896118164062, -7.999999979801942e-06 ],
+         "count" : 360,
+         "max" : [ 2.787997007369995, 12.77813053131104, 2.567847013473511 ],
+         "min" : [ -2.787997007369995, 0, -2.518685102462769 ],
          "name" : "buffer-0-accessor-position-buffer-0-mesh-0",
          "type" : "VEC3"
       },
       {
          "bufferView" : 2,
-         "byteOffset" : 13608,
+         "byteOffset" : 4320,
          "componentType" : 5126,
-         "count" : 1134,
-         "max" : [ 0.999970018863678, 0.9997469782829285, 1 ],
-         "min" : [ -0.9999529719352722, -0.9997479915618896, -1 ],
+         "count" : 360,
+         "max" : [ 0.9986410140991211, 1, 1 ],
+         "min" : [ -0.9985399842262268, -1, -1 ],
          "name" : "buffer-0-accessor-normal-buffer-0-mesh-0",
          "type" : "VEC3"
       },
@@ -34,9 +34,9 @@
          "bufferView" : 1,
          "byteOffset" : 0,
          "componentType" : 5126,
-         "count" : 1134,
-         "max" : [ 2.01085901260376, 0.5999879837036133 ],
-         "min" : [ -1.010854959487915, -1.001750946044922 ],
+         "count" : 360,
+         "max" : [ 0.8960009813308716, 0 ],
+         "min" : [ 0, -0.9944400191307068 ],
          "name" : "buffer-0-accessor-texcoord-buffer-0-mesh-0",
          "type" : "VEC2"
       },
@@ -53,7 +53,7 @@
    ],
    "asset" : {
       "extras" : {
-         "GOOGLE_processor_version" : 294144208
+         "GOOGLE_processor_version" : 293297437
       },
       "generator" : "Obj2GltfConverter",
       "version" : "2.0"
@@ -61,7 +61,7 @@
    "bufferViews" : [
       {
          "buffer" : 0,
-         "byteLength" : 2268,
+         "byteLength" : 720,
          "byteOffset" : 0,
          "byteStride" : 0,
          "name" : "buffer-0-bufferview-ushort",
@@ -69,16 +69,16 @@
       },
       {
          "buffer" : 0,
-         "byteLength" : 9072,
-         "byteOffset" : 2272,
+         "byteLength" : 2880,
+         "byteOffset" : 720,
          "byteStride" : 8,
          "name" : "buffer-0-bufferview-vec2",
          "target" : 34962
       },
       {
          "buffer" : 0,
-         "byteLength" : 27216,
-         "byteOffset" : 11352,
+         "byteLength" : 8640,
+         "byteOffset" : 3600,
          "byteStride" : 12,
          "name" : "buffer-0-bufferview-vec3",
          "target" : 34962
@@ -92,9 +92,9 @@
    ],
    "buffers" : [
       {
-         "byteLength" : 38576,
+         "byteLength" : 12240,
          "name" : "buffer-0",
-         "uri" : "WoodChair_01(1).bin"
+         "uri" : "Chair.bin"
       }
    ],
    "cameras" : [
@@ -133,13 +133,24 @@
          "disableShadows" : false
       }
    },
+   "images" : [
+      {
+         "mimeType" : "image/png",
+         "name" : "blinn1SG-image",
+         "uri" : "Chair_BaseColor.png"
+      }
+   ],
    "materials" : [
       {
          "alphaMode" : "OPAQUE",
          "doubleSided" : true,
-         "name" : "blinn2SG",
+         "name" : "blinn1SG",
          "pbrMetallicRoughness" : {
-            "baseColorFactor" : [ 0.19, 0.09, 0.06, 1 ],
+            "baseColorFactor" : [ 1, 1, 1, 1 ],
+            "baseColorTexture" : {
+               "index" : 0,
+               "texCoord" : 0
+            },
             "metallicFactor" : 0,
             "roughnessFactor" : 0.9699476628648295
          }
@@ -175,23 +186,22 @@
          "extras" : {
             "isTransformNode" : 1
          },
-         "rotation" : [ -0.7071067811865475, 0, 0, 0.7071067811865476 ],
-         "translation" : [ -6.46301184415648, -0.762598973247071, 136.7971240042406 ]
+         "translation" : [ -0.08719965450260464, 6.56924053584939, 0.2679983404429927 ]
       },
       {
          "children" : [ 0 ],
-         "translation" : [ 6.46301184415648, 0.762598973247071, -136.7971240042406 ]
+         "translation" : [ 0.08719965450260464, -6.56924053584939, -0.2679983404429927 ]
       },
       {
          "camera" : 0,
          "children" : [ 5 ],
          "rotation" : [
-            0.08930852020149942,
-            0.8410082953781968,
-            0.1463742792850459,
-            -0.5131311778563663
+            -0.2173487120720279,
+            -0.3154615771610426,
+            -0.07447028864691624,
+            0.9207050053108996
          ],
-         "translation" : [ -500.5482418231819, 198.680625082389, -117.474349552319 ]
+         "translation" : [ -13.91835389507725, 17.84585838371122, 18.08186565053683 ]
       },
       {
          "extensions" : {
@@ -203,7 +213,7 @@
             "isHeadLight" : 1
          },
          "name" : "headLightNode",
-         "translation" : [ -210.2506915136855, 105.1253457568427, 105.1253457568427 ]
+         "translation" : [ -8.405946285456668, 4.202973142728334, 4.202973142728334 ]
       },
       {
          "extensions" : {
@@ -216,8 +226,15 @@
          },
          "name" : "keyLightNode",
          "rotation" : [ -0.7505326882858236, -0.3752663441429118, 0, 0.5439447166468927 ],
-         "scale" : [ 0, 0, 212.3531984288223 ],
-         "translation" : [ -199.3576952235616, 427.3840419273066, -76.39450586329443 ]
+         "scale" : [ 0, 0, 8.490005748311235 ],
+         "translation" : [ -8.483735722475139, 22.6617156879893, -9.134794310900457 ]
+      }
+   ],
+   "samplers" : [
+      {
+         "name" : "blinn1SG-sampler",
+         "wrapS" : 10497,
+         "wrapT" : 10497
       }
    ],
    "scene" : 0,
@@ -225,7 +242,7 @@
       {
          "extensions" : {
             "GOOGLE_backgrounds" : {
-               "color" : [ 0.01176470588235294, 0.6627450980392157, 0.9568627450980393 ]
+               "color" : [ 0.9411764705882353, 0.3843137254901961, 0.5725490196078431 ]
             },
             "GOOGLE_camera_settings" : {}
          },
@@ -236,18 +253,25 @@
             },
             "GOOGLE_geometry_data" : {
                "stats" : {
-                  "centroid" : [ 12.99550320526069, 2.677645069661915, 135.9586925655279 ],
-                  "radius" : 210.2506915136855,
-                  "stdev" : 122.2586503654366
+                  "centroid" : [ 0.00627002583609687, 5.681704191366832, -0.6447885625892216 ],
+                  "radius" : 8.405946285456668,
+                  "stdev" : 5.222263273074433
                },
-               "visualCenterPoint" : [ -6.46301184415648, -0.762598973247071, 136.7971240042406 ]
+               "visualCenterPoint" : [ -0.08719965450260464, 6.56924053584939, 0.2679983404429927 ]
             },
             "GOOGLE_hemi_light" : {
-               "groundColor" : [ 0.01176470588235294, 0.6627450980392157, 0.9568627450980393 ]
+               "groundColor" : [ 0.9411764705882353, 0.3843137254901961, 0.5725490196078431 ]
             }
          },
          "name" : "scene-0",
          "nodes" : [ 1, 4, 6 ]
+      }
+   ],
+   "textures" : [
+      {
+         "name" : "blinn1SG-texture",
+         "sampler" : 0,
+         "source" : 0
       }
    ]
 }
